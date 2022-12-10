@@ -9,5 +9,9 @@ namespace UniversityApiBackendoReplica.DataAccess
 
         // TODO: Add DbSet (tables of the data base)
         public DbSet<User>? Users { get; set; }
+        public DbSet<Course>? Courses { get; set; }
+        public DbSet<Category>? Categories { get; set; }
+        public DbSet<Student>? Students { get; set; }
+        public DbSet<Temary>? Temarys { get; set;}
     }
 }
